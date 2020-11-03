@@ -4,7 +4,7 @@
   "description": "A SGI version using AdminBro library.",
   "main": "admin.js",
   "scripts": {
-    "start": "node admin.js",
+    "start": "nodemon admin.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -27,5 +27,8 @@
     "pg-hstore": "^2.3.3",
     "sequelize": "^6.3.5",
     "sequelize-cli": "^6.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
   }
 }
