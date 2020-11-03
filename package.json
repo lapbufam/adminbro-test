@@ -1,0 +1,26 @@
+{
+  "name": "sgi",
+  "version": "1.0.0",
+  "description": "A SGI version using AdminBro library.",
+  "main": "admin.js",
+  "scripts": {
+    "start": "node admin.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lapbufam/adminbro-test.git"
+  },
+  "author": "Leonardo Barreto",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lapbufam/adminbro-test/issues"
+  },
+  "homepage": "https://github.com/lapbufam/adminbro-test#readme",
+  "dependencies": {
+    "@admin-bro/express": "^3.0.1",
+    "admin-bro": "^3.3.1",
+    "express": "^4.17.1",
+    "express-formidable": "^1.2.0"
+  }
+}
